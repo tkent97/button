@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="main">
+                <nav>
+                    <ul class="menuitems">
+                        <li><h1>dojinary</h1></li>
+                        <li>
+                            <input
+                                type="text"
+                                placeholder="search"
+                                id="search"
+                            />
+                        </li>
+                        <li>
+                            <button
+                                onclick="changebuttontext()"
+                                id="login"
+                                type="button"
+                            >
+                                login
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="bothcolumn">
+                    <div class="col1">
+                        <div class="entry">
+                            <div class="word">
+                                <h2>ninja</h2>
+                                <span class="italic">noun</span>
+                                <p>
+                                    plural: <span class="italic">ninjas</span>
+                                </p>
+                                <button
+                                    onclick="alertbutton()"
+                                    class="yellow"
+                                    type="button"
+                                >
+                                    13 likes
+                                </button>
+                            </div>
+                            <h3>
+                                A practitoner skilled in the
+                                <a href="#">japanese</a> art of
+                                <a href="#">ninjitsu</a>
+                            </h3>
+                        </div>
+                        <div class="entry">
+                            <div class="word">
+                                <h2>ninja</h2>
+                                <span class="italic">noun</span>
+                                <p>
+                                    plural: <span class="italic">ninjas</span>
+                                </p>
+                                <button
+                                    onclick="alertbutton()"
+                                    class="yellow"
+                                    type="button"
+                                >
+                                    37 likes
+                                </button>
+                            </div>
+                            <h3>
+                                A <a href="#">programmer</a> who breaks sown
+                                problems with <a href="#">zen</a>-like focus
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col2">
+                        <div class="dojonaryright">
+                            <h3>Dojonary is defined by YOU</h3>
+                            <button
+                                onclick="hideitself(this)"
+                                class="green"
+                                type="button"
+                            >
+                                Add definition
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
